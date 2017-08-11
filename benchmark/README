@@ -1,0 +1,11 @@
+The files included in these subdirectories are the files used to
+benchmark the Multi-Layer Thread Package (mltp) for SMP Linux.
+
+Each of the leaf directories includes a Makefile for the files that
+they contain.  The paths at the top of each Makefile need to be
+edited to match the paths to the thread packages on the machine
+performing the compilation.
+
+Good Luck,
+Michael Dipperstein
+September 10, 2000

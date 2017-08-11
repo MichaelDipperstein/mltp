@@ -1,0 +1,20 @@
+MLTP: a Two-Level Thread Library for SMP Linux Machines
+
+Abstract
+
+This thesis is focused on the design and implementation of an
+open-source two-level thread package called MLTP for the Linux
+operating system running on Intel PC SMPs.  Kernel threads
+directly scheduled by multiprocessor OS normally have high
+context switch cost compared to user-level threads.  User-level
+threads scheduled within a single kernel process are not capable of
+utilizing multiple processors.  Many parallel applications running 
+on SMPs require support for flexible control of kernel and user-level
+threads and  such a package is not available on the Linux operating
+system.  In the thesis talk, I will discuss an M-to-N architecture
+for MLTP and a design for efficient synchronization and switch among
+threads.  Such a design allows a multi-thread application to achieve
+scalability and efficiency in multi-processor environments at a low
+cost.  I will also present performance of MLTP for several
+micro-benchmarks and applications on Intel Xeon dual and quad-processor
+SMPs.
