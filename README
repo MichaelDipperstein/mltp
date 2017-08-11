@@ -1,0 +1,9 @@
+MLTP: a Two-Level Thread Library for SMP Linux Machines
+
+This project is focused on the design and implementation of an open-source
+two-level thread package called MLTP for the Linux version 2.0 operating system
+running on 32-bit Intel SMP PCs.
+
+It was my Masters thesis project that I worked on between 1999 and 2000.  It ran
+on what used to be a pretty impressive Linux cluster and worked around a few
+problems that the old kernels had on SMP architectures.
